@@ -54,21 +54,19 @@ header {
 /*header {
 	width: 100%;
 
-}*/
-
-header > nav {
+}
+*/
+nav {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	display: block;
 	text-align: center;
-	display: none;
+	/*display: none;*/
 	background-color: #18354D;
 }
 
-header > nav:target {
-	display: block;
-}
+
+
 nav > a {
 	display: block;
 	color: white;
@@ -76,10 +74,14 @@ nav > a {
 	font-size: 24pt;
 }
 
-nav > a:hover {
+/*nav > a:hover {
 
+}*/
+
+nav:target {
+	display: block;
+	background-color: red;
 }
-
 
 .hero {
 	background: 
