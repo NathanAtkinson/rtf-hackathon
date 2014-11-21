@@ -28,11 +28,11 @@ body {
 
 /* CSS Structure */
 header {
-	position: fixed;
+	position: absolute;
 	width: 960px;
 	left: 50%;
 	margin-left: -480px;
-	background-color: white;
+	/*background-color: white;*/
 }
 
 .logo {
@@ -55,7 +55,7 @@ nav > a {
 
 
 .hero {
-	background-image: url('/images/background_mobile.jpg');
+	background-image: url('/images/test.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 400px;
@@ -71,6 +71,11 @@ nav > a {
 	padding: 1px;
 }
 
+.panel > div {
+	position: relative;
+	min-height: 400px;
+}
+
 .panel:nth-child(odd) {
 	background-color: #EEEDE6;
 }
@@ -81,8 +86,10 @@ nav > a {
 
 
 .graphic {
-	background-color: red;
     min-height: 100vw;
+    background-size: cover;
+    background-position: center center;
+
 }
 
 
@@ -125,12 +132,18 @@ nav > a {
 	    min-height: 500px;
 	    width: 40%;
 	}
+	.graphic {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 40%;
+	}
 	.panel:nth-child(odd) .graphic {
-		float: left;
+		left: 0;
 	}
 
 	.panel:nth-child(even) .graphic {
-		float: right;
+		right: 0;
 	}
 
 	.content {
@@ -143,10 +156,10 @@ nav > a {
 /*
 * overrides when screen width is 1000px
 */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 960px){
 
 	.hero {
-		background-image: url('/images/background.jpg');
+		background-image: url('/images/test.jpg');
 		background-position: center bottom;
 	}
 	.panel:first-of-type {
