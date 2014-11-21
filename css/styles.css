@@ -1,0 +1,29 @@
+/* RESET */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+
+header {
+	min-height: 50px;
+	background-color: blue;
+}
+
+.pannel:first-of-type {
+	height: 100vw;
+}
+
+.graphic {
+	background-color: red;
+    height: 100vw;
+}
+
+.content {
+	background-color: seashell;
+    height: 100vw;
+}
+
