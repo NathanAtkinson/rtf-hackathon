@@ -1,0 +1,12 @@
+
+
+## Intro
+Ryan had turned twenty-one years old only three months before his accident. 
+
+He was a loving son, brother, grandson, cousin, and friend. He was a young man full of integrity, kindness, generosity, and had a smile that could melt your heart. He gave so much joy and happiness to our family that we instantly knew we had to continue his legacy with this Foundation. 
+
+Ryan loved the outdoors, his family, and sports. He attended Mountain View High School where he excelled in football. After high school, Ryan played two years of college football for Mesa Community College prior to transferring to Arizona State University. Ryan was a junior at ASU majoring in communications and working two jobs to help out with his college expenses. 
+
+On the day of the accident, Ryan and five friends went to Saguaro Lake for a day of fun in the sun. Nobody could have ever imagined that the day would take such a tragic turn and that Ryan would drown. A painful and constant reminder of the dangers of water and the importance of water safety. 
+
+Before Ryan passed away, he wrote a mission statement for one of his college classes. In the mission statement Ryan wrote, "I just want to be a good person, good people are remembered." Thank you for visiting this website. It gives our family great joy to remember Ryan with his old friends and introduce him to new ones.
