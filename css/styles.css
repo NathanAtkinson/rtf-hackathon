@@ -25,13 +25,13 @@ nav > a {
 	display: inline-block;
 }
 
-.pannel:first-of-type {
-	height: 100vw;
+.panel:first-of-type {
+	min-height: 100vw;
 }
 
 .graphic {
 	background-color: red;
-    height: 100vw;
+    min-height: 100vw;
 }
 
 .content {
@@ -39,3 +39,63 @@ nav > a {
     min-height: 100vw;
 }
 
+
+/*
+* overrides when screen width is 500px
+*/
+@media screen and (min-width: 500px){
+	.panel:first-of-type {
+		height: 100vw;
+	}
+
+	.panel {
+		min-height: 500px;
+	}
+
+	.graphic {
+		background-color: pink;
+	    /*height: 500vw;*/
+	    min-height: 500px;
+	    width: 50%;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.content {
+		background-color: seashell;
+	    min-height: 500px;
+	    /*min-height: 100vw;*/
+	}
+	
+}
+
+/*
+* overrides when screen width is 1000px
+*/
+@media screen and (min-width: 1000px){
+	.panel:first-of-type {
+		height: 100vw;
+	}
+
+	.panel > div {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.graphic {
+		background-color: gray;
+	    /*min-height: 100vw;*/
+	}
+
+	.content {
+		background-color: seashell;
+	    /*min-height: 100vw;*/
+	}
+	
+}
