@@ -10,3 +10,17 @@ Ryan loved the outdoors, his family, and sports. He attended Mountain View High 
 On the day of the accident, Ryan and five friends went to Saguaro Lake for a day of fun in the sun. Nobody could have ever imagined that the day would take such a tragic turn and that Ryan would drown. A painful and constant reminder of the dangers of water and the importance of water safety. 
 
 Before Ryan passed away, he wrote a mission statement for one of his college classes. In the mission statement Ryan wrote, "I just want to be a good person, good people are remembered." Thank you for visiting this website. It gives our family great joy to remember Ryan with his old friends and introduce him to new ones.
+
+
+
+
+
+
+
+
+
+
+
+
+## from another site...
+Shannon’s family asks the public to remember Ryan by always wearing a life vest while boating, learning CPR, and providing the proper barriers at the home and around any other bodies of water. Three simple clicks of a life vest can save your life!
