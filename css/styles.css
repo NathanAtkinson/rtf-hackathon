@@ -68,16 +68,13 @@ nav > a {
     min-height: 100vw;
 }
 
-.left .content {
-    min-height: 100vw;
-    padding: 20px;
-    margin-left: 40vw;
+
+.panel:nth-child(odd) {
+	background-color: #EEEDE6;
 }
 
-.right .content {
-    min-height: 100vw;
-    padding: 20px;
-    margin-right: 4vw;
+.panel:nth-child(even) {
+	background-color: #4C4745;
 }
 
 
@@ -86,6 +83,17 @@ nav > a {
 */
 @media screen and (min-width: 500px){
 
+	.panel:nth-child(odd) .content {
+	    min-height: 100vw;
+	    padding: 20px;
+	    margin-left: 40vw;
+	}
+
+	.panel:nth-child(even) .content {
+	    min-height: 100vw;
+	    padding: 20px;
+	    margin-right: 40vw;
+	}
 	.panel:first-of-type {
 		height: 100vw;
 	}
@@ -100,12 +108,11 @@ nav > a {
 	    min-height: 500px;
 	    width: 40%;
 	}
-
-	.left {
+	.panel:nth-child(odd) .graphic {
 		float: left;
 	}
 
-	.right {
+	.panel:nth-child(even) .graphic {
 		float: right;
 	}
 
@@ -134,8 +141,8 @@ nav > a {
 	}
 
 	.graphic {
-		background-color: gray;
-	    /*min-height: 100vw;*/
+		background-color: magenta;
+	    min-height: 100px;
 	}
 
 	.content {
