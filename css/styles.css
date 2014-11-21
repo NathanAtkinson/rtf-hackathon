@@ -25,14 +25,14 @@ body {
 	background-image: url('/images/rtf05.jpg');
 }
 
+#our-mission {
+	background-color: #497398;
+}
+
 
 /* CSS Structure */
 header {
-	position: absolute;
-	width: 960px;
-	left: 50%;
-	margin-left: -480px;
-	/*background-color: white;*/
+	background-color: #497398;
 }
 
 .logo {
@@ -42,20 +42,51 @@ header {
 	background-image: url('/images/logo_t.png');
 	background-size: contain ;
 }
+.toggle-nav {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+/*header {
+	width: 100%;
+
+}*/
 
 header > nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
 	min-height: 75px;
 	display: block;
 	text-align: center;
+	display: none;
+	background-color: black;
 }
 
+header > nav:target {
+	display: block;
+}
 nav > a {
-	display: inline-block;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 24pt;
+}
+
+nav > a:hover {
+
 }
 
 
 .hero {
-	background: rgba(0,0,0,0.5), url('/images/water.jpg');
+	background: 
+		radial-gradient(
+			rgba(0,0,0,0.5), 
+			rgba(0,0,0,0.5)
+		), 
+		url('/images/water.jpg');
+
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 400px;
@@ -77,7 +108,7 @@ nav > a {
 }
 
 .panel:nth-child(odd) {
-	background-color: #DDF;
+	background-color: #FAFAFA;
 }
 
 .panel:nth-child(even) {
@@ -149,15 +180,31 @@ nav > a {
 @media screen and (min-width: 960px){
 
 	.hero {
-		background-image: url('/images/water.jpg');
 		background-position: center bottom;
-	}
-	.panel:first-of-type {
-		/*height: 960px;*/
 	}
 
 	.panel > div {
 		width: 960px;
 		margin: 0 auto;
+	}
+
+	.toggle-nav {
+		display: none;
+	}
+
+	header {
+		position: absolute;
+		width: 960px;
+		left: 50%;
+		margin-left: -480px;
+	}
+
+	header nav {
+		position: initial;
+		display: block;
+	}
+	nav > a {
+		display: inline-block;
+		font-size: 20pt;
 	}
 }
