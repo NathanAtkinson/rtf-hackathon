@@ -3,19 +3,19 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	margin: 0;
-	background-color: tan;
 }
 
 /* CSS Structure */
 header {
-	min-height: 50px;
 	position: fixed;
 	width: 100%;
 }
 
 header > nav {
+	min-height: 75px;
 	display: block;
 	text-align: center;
 	background-color: white;
@@ -25,9 +25,27 @@ nav > a {
 	display: inline-block;
 }
 
+.hero {
+	background-image: url('/images/background_mobile.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
 .panel:first-of-type {
 	min-height: 100vw;
 }
+
+.panel:nth-child(odd) {
+	background-color: seashell;
+}
+
+.panel:nth-child(even) {
+	background-color: blue;
+}
+
 
 .graphic {
 	background-color: red;
@@ -35,7 +53,6 @@ nav > a {
 }
 
 .content {
-	background-color: seashell;
     min-height: 100vw;
 }
 
@@ -44,6 +61,7 @@ nav > a {
 * overrides when screen width is 500px
 */
 @media screen and (min-width: 500px){
+
 	.panel:first-of-type {
 		height: 100vw;
 	}
@@ -56,7 +74,7 @@ nav > a {
 		background-color: pink;
 	    /*height: 500vw;*/
 	    min-height: 500px;
-	    width: 50%;
+	    width: 40%;
 	}
 
 	.left {
@@ -68,7 +86,6 @@ nav > a {
 	}
 
 	.content {
-		background-color: seashell;
 	    min-height: 500px;
 	    /*min-height: 100vw;*/
 	}
@@ -79,6 +96,10 @@ nav > a {
 * overrides when screen width is 1000px
 */
 @media screen and (min-width: 1000px){
+	.hero {
+		background-image: url('/images/background.jpg');
+		background-position: center bottom;
+	}
 	.panel:first-of-type {
 		height: 960px;
 	}
@@ -94,7 +115,6 @@ nav > a {
 	}
 
 	.content {
-		background-color: seashell;
 	    /*min-height: 100vw;*/
 	}
 	
