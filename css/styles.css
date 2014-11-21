@@ -5,12 +5,24 @@
 }
 body {
 	margin: 0;
+	background-color: tan;
 }
 
-
+/* CSS Structure */
 header {
 	min-height: 50px;
-	background-color: blue;
+	position: fixed;
+	width: 100%;
+}
+
+header > nav {
+	display: block;
+	text-align: center;
+	background-color: white;
+}
+
+nav > a {
+	display: inline-block;
 }
 
 .pannel:first-of-type {
@@ -24,6 +36,6 @@ header {
 
 .content {
 	background-color: seashell;
-    height: 100vw;
+    min-height: 100vw;
 }
 
