@@ -55,7 +55,7 @@ nav > a {
 
 
 .hero {
-	background-image: url('/images/test.jpg');
+	background: rgba(0,0,0,0.5), url('/images/test.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 400px;
@@ -68,7 +68,7 @@ nav > a {
 }
 
 .panel {
-	padding: 1px;
+	overflow: hidden;
 }
 
 .panel > div {
@@ -127,8 +127,6 @@ nav > a {
 	}
 
 	.graphic {
-		background-color: pink;
-	    /*height: 500vw;*/
 	    min-height: 500px;
 	    width: 40%;
 	}
@@ -170,14 +168,4 @@ nav > a {
 		width: 960px;
 		margin: 0 auto;
 	}
-
-	.graphic {
-		background-color: magenta;
-
-	}
-
-	.content {
-	    /*min-height: 100vw;*/
-	}
-	
 }
