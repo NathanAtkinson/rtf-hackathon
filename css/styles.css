@@ -55,7 +55,7 @@ nav > a {
 
 
 .hero {
-	background: rgba(0,0,0,0.5), url('/images/test.jpg');
+	background: rgba(0,0,0,0.5), url('/images/water.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 400px;
@@ -77,11 +77,11 @@ nav > a {
 }
 
 .panel:nth-child(odd) {
-	background-color: #EEEDE6;
+	background-color: #DDF;
 }
 
 .panel:nth-child(even) {
-	background-color: #4C4745;
+	background-color: #EEE;
 }
 
 
@@ -92,14 +92,6 @@ nav > a {
 
 }
 
-
-.panel:nth-child(odd) {
-	background-color: #EEEDE6;
-}
-
-.panel:nth-child(even) {
-	background-color: #4C4745;
-}
 
 
 /*
@@ -157,7 +149,7 @@ nav > a {
 @media screen and (min-width: 960px){
 
 	.hero {
-		background-image: url('/images/test.jpg');
+		background-image: url('/images/water.jpg');
 		background-position: center bottom;
 	}
 	.panel:first-of-type {
