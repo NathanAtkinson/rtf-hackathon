@@ -2,6 +2,7 @@
 
 * {
 	box-sizing: border-box;
+	font-family: ARSMaquettePro-Regular, Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -14,6 +15,14 @@ header {
 	width: 100%;
 }
 
+.logo {
+	display: block;
+	height: 50px;
+	background-image: url('/images/logo_t.png');
+	/*background-size: ;*/
+
+}
+
 header > nav {
 	min-height: 75px;
 	display: block;
@@ -24,6 +33,7 @@ header > nav {
 nav > a {
 	display: inline-block;
 }
+
 
 .hero {
 	background-image: url('/images/background_mobile.jpg');
@@ -39,11 +49,11 @@ nav > a {
 }
 
 .panel:nth-child(odd) {
-	background-color: seashell;
+	background-color: #EEEDE6;
 }
 
 .panel:nth-child(even) {
-	background-color: blue;
+	background-color: #4C4745;
 }
 
 
@@ -54,6 +64,8 @@ nav > a {
 
 .content {
     min-height: 100vw;
+    padding: 20px;
+    margin-left: 40vw;
 }
 
 
