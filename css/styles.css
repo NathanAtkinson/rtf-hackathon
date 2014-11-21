@@ -12,14 +12,18 @@ body {
 /* CSS Structure */
 header {
 	position: fixed;
-	width: 100%;
+	width: 960px;
+	left: 50%;
+	margin-left: -480px;
+	background-color: white;
 }
 
 .logo {
 	display: block;
-	height: 50px;
+	height: 143px;
+	width: 250px;
 	background-image: url('/images/logo_t.png');
-	/*background-size: ;*/
+	background-size: contain ;
 
 }
 
@@ -27,7 +31,6 @@ header > nav {
 	min-height: 75px;
 	display: block;
 	text-align: center;
-	background-color: white;
 }
 
 nav > a {
@@ -113,7 +116,7 @@ nav > a {
 		background-position: center bottom;
 	}
 	.panel:first-of-type {
-		height: 960px;
+		/*height: 960px;*/
 	}
 
 	.panel > div {
