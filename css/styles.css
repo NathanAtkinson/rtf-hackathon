@@ -9,6 +9,23 @@ body {
 	margin: 0;
 }
 
+#picture1 {
+	background-image: url('/images/rtf01.jpg');
+}
+#picture2 {
+	background-image: url('/images/rtf02.jpg');
+}
+#picture3 {
+	background-image: url('/images/rtf03.jpg');
+}
+#picture4 {
+	background-image: url('/images/rtf04.jpg');
+}
+#picture5 {
+	background-image: url('/images/rtf05.jpg');
+}
+
+
 /* CSS Structure */
 header {
 	position: fixed;
@@ -84,15 +101,15 @@ nav > a {
 @media screen and (min-width: 500px){
 
 	.panel:nth-child(odd) .content {
-	    min-height: 100vw;
+	    min-height: 100%;
 	    padding: 20px;
-	    margin-left: 40vw;
+	    margin-left: 40%;
 	}
 
 	.panel:nth-child(even) .content {
-	    min-height: 100vw;
+	    min-height: 100%;
 	    padding: 20px;
-	    margin-right: 40vw;
+	    margin-right: 40%;
 	}
 	.panel:first-of-type {
 		height: 100vw;
@@ -127,6 +144,7 @@ nav > a {
 * overrides when screen width is 1000px
 */
 @media screen and (min-width: 1000px){
+
 	.hero {
 		background-image: url('/images/background.jpg');
 		background-position: center bottom;
@@ -142,7 +160,7 @@ nav > a {
 
 	.graphic {
 		background-color: magenta;
-	    min-height: 100px;
+
 	}
 
 	.content {
