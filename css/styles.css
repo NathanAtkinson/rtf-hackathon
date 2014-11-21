@@ -24,7 +24,6 @@ header {
 	width: 250px;
 	background-image: url('/images/logo_t.png');
 	background-size: contain ;
-
 }
 
 header > nav {
@@ -51,6 +50,10 @@ nav > a {
 	min-height: 100vw;
 }
 
+.panel {
+	padding: 1px;
+}
+
 .panel:nth-child(odd) {
 	background-color: #EEEDE6;
 }
@@ -65,10 +68,16 @@ nav > a {
     min-height: 100vw;
 }
 
-.content {
+.left .content {
     min-height: 100vw;
     padding: 20px;
     margin-left: 40vw;
+}
+
+.right .content {
+    min-height: 100vw;
+    padding: 20px;
+    margin-right: 4vw;
 }
 
 
