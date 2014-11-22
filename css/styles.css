@@ -64,7 +64,6 @@ nav {
 	top: 143px;
 	width: 100%;
 	display: none;
-	background-color: rgba(93, 162, 223, 0.77);
 }
 
 header > a {
@@ -74,11 +73,12 @@ header > a {
 }
 
 nav > a {
+	background-color: rgba(93, 162, 223, 0.77);
 	display: block;
 	color: white;
 	text-decoration: none;
 	font-size: 24pt;
-	margin: auto;
+	text-align: center;
 }
 
 nav > a:hover {
@@ -102,7 +102,21 @@ header nav:target {
 	min-height: 400px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	position: relative;
 }
+
+
+div.quote {
+	position: absolute;
+	font-size: 1em;
+	bottom: -18px;
+	left: 60%;
+	
+	text-align: left;
+	color: white;
+}
+
+
 
 .panel:first-of-type {
 	min-height: 100vw;
@@ -140,15 +154,14 @@ header nav:target {
 */
 @media screen and (min-width: 700px){
 
+
+
 	.panel:nth-child(odd) .content {
 	    min-height: 100%;
 	    padding: 20px;
 	    margin-left: 40%;
 	}
 
-	nav {
-		background-color: rgba(93, 162, 223, 0.77);
-	}
 
 	.panel:nth-child(even) .content {
 	    min-height: 100%;
@@ -184,6 +197,10 @@ header nav:target {
 	.content {
 	    min-height: 500px;
 	    /*min-height: 100vw;*/
+	}
+
+	div.quote {
+		bottom: -10px;
 	}
 	
 }
@@ -223,6 +240,18 @@ header nav:target {
 		font-size: 16pt;
 		display: inline-block;
 		padding: 5px 15px;
+		background-color: transparent;
 		
 	}
+
+	div.quote {
+		position: absolute;
+		font-size: 3em;
+		bottom: 25px;
+		left: 50%;
+		margin-left: -10px;
+		text-align: left;
+		color: white;
+	}
+
 }
