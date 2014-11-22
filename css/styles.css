@@ -26,7 +26,7 @@ body {
 }
 
 #our-mission {
-	background-color: #497398;
+	background-color: #4DACFF;
 
 }
 
@@ -43,7 +43,11 @@ h1 {
 
 /* CSS Structure */
 header {
+	/*background-color: #5EA7E7;*/
 	background-color: rgba(93, 162, 223, 0.77);
+	background-color: #4DACFF;
+	width: 100vw;
+	min-height: 143px;
 }
 
 .logo {
@@ -73,7 +77,7 @@ header > a {
 }
 
 nav > a {
-	background-color: rgba(93, 162, 223, 0.77);
+	background-color: rgba(93, 162, 223, 0.59);
 	display: block;
 	color: white;
 	text-decoration: none;
@@ -223,17 +227,10 @@ div.quote {
 		display: none;
 	}
 
-	header {
-		position: absolute;
-		width: 960px;
-		left: 50%;
-		margin-left: -480px;
-	}
-
 	header nav {
-		position: initial;
 		display: block;
 		text-align: center;
+		background-color: rgba(93, 162, 223, 0.59);
 	}
 	nav > a {
 		display: inline-block;
@@ -241,7 +238,13 @@ div.quote {
 		display: inline-block;
 		padding: 5px 15px;
 		background-color: transparent;
-		
+	}
+
+	header .logo-container{
+		position: absolute;
+		width: 960px;
+		left: 50%;
+		margin-left: -480px;
 	}
 
 	div.quote {
