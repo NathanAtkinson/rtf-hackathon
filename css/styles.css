@@ -27,15 +27,23 @@ body {
 
 #our-mission {
 	background-color: #497398;
+
 }
 
 h1 {
 	color: #5EA7E7;
 }
 
+#our-mission h1 {
+	color: white;
+}
+#our-mission a {
+	color: white;
+}
+
 /* CSS Structure */
 header {
-	background-color: #5EA7E7;
+	background-color: rgba(93, 162, 223, 0.77);
 }
 
 .logo {
@@ -43,7 +51,7 @@ header {
 	height: 143px;
 	width: 250px;
 	background-image: url('/images/logo_t.png');
-	background-size: contain ;
+	background-size: contain;
 }
 .toggle-nav {
 	position: absolute;
@@ -51,36 +59,34 @@ header {
 	right: 15px;
 }
 
-/*header {
-	width: 100%;
-
-}
-*/
 nav {
 	position: absolute;
-	top: 0;
+	top: 143px;
 	width: 100%;
-	text-align: center;
-	/*display: none;*/
-	background-color: #18354D;
+	display: none;
+	background-color: rgba(93, 162, 223, 0.77);
 }
 
-
+header > a {
+	color: white;
+	text-decoration: none;
+	font-size: 24pt;
+}
 
 nav > a {
 	display: block;
 	color: white;
 	text-decoration: none;
 	font-size: 24pt;
+	margin: auto;
 }
 
-/*nav > a:hover {
+nav > a:hover {
+	background-color: rgba(93, 162, 223, 0.90);
+}
 
-}*/
-
-nav:target {
+header nav:target {
 	display: block;
-	background-color: red;
 }
 
 .hero {
@@ -132,12 +138,16 @@ nav:target {
 /*
 * overrides when screen width is 500px
 */
-@media screen and (min-width: 500px){
+@media screen and (min-width: 700px){
 
 	.panel:nth-child(odd) .content {
 	    min-height: 100%;
 	    padding: 20px;
 	    margin-left: 40%;
+	}
+
+	nav {
+		background-color: rgba(93, 162, 223, 0.77);
 	}
 
 	.panel:nth-child(even) .content {
@@ -206,6 +216,7 @@ nav:target {
 	header nav {
 		position: initial;
 		display: block;
+		text-align: center;
 	}
 	nav > a {
 		display: inline-block;
