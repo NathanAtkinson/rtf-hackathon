@@ -4,8 +4,8 @@ rtf-hackathon
 Site created at the RockIT! Hackathon on 11/21/14
 By 
 David Stevens 
-davidstevens37@gmail.com
+https://github.com/davidstevens37
 
 and 
 Nathan Atkinson
-nathanatkinson2006@gmail.com
+https://github.com/NathanAtkinson
